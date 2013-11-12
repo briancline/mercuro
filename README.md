@@ -11,5 +11,19 @@ provides concurrency, forking, and a config file.
 
 See test.py for example use.
 
+
+## Installing
+
+This is all you need:
+
+    pip install mercuro
+
+Or, if you want to install from source:
+
+    git clone https://github.com/briancline/mercuro.git
+    cd mercuro
+    sudo python setup.py install
+
+
   [1]: http://riemann.io/
   [2]: https://github.com/banjiewen/bernhard
