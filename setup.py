@@ -1,9 +1,4 @@
-from os.path import join, dirname
 from setuptools import setup
-
-
-def readme_text(file_name):
-    return open(join(dirname(__file__), file_name)).read()
 
 
 setup(
@@ -17,7 +12,7 @@ setup(
     keywords = 'syslog rsyslog riemann logging',
     url = 'https://github.com/briancline/mercuro',
     packages=['mercuro'],
-    long_description=readme_text('README.md'),
+    long_description=open('README.md').read(),
     classifiers=[
         'Development Status :: 3 - Alpha',
         'License :: OSI Approved :: Apache Software License',
